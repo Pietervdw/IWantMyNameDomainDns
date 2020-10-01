@@ -2,6 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Pieter van der Westhuizen</Authors>
+    <Company>Coalition Software</Company>
+    <Product>IWantMyName Domain &amp; DNS API</Product>
+    <Description>A C# Wrapper for the iwantmyname.com Domain &amp; DNS API
+
+iwantmyname.com provides an API to manage your domain DNS records. This is a great way to for example create subdomains automatically for multi-tenant applications. This libary provides a simple and easy way to create and delete DNS records for domains registered at iwantmyname.com</Description>
+    <PackageProjectUrl>https://github.com/Pietervdw/IWantMyNameDomainDns</PackageProjectUrl>
+    <PackageIcon>iwantmyname.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Pietervdw/IWantMyNameDomainDns</RepositoryUrl>
+    <PackageTags>iwantmyname, dns, c#</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\PietervanderWesthuiz\Desktop\iwantmyname.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
