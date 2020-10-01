@@ -1,4 +1,4 @@
-# IWantMyNameDomainDns
+# iwantmyname.com Domain & DNS API C# Wrapper library
 A C# Wrapper for the iwantmyname.com Domain &amp; DNS API
 
 iwantmyname.com provides an API to manage your domain DNS records. This is a great way to for example create subdomains automatically for multi-tenant applications.
