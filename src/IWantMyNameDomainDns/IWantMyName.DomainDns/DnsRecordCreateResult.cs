@@ -1,6 +1,6 @@
 ﻿namespace IWantMyName.DomainDns
 {
-    public class DnsRecordCreateResult
+    public class DnsRecordResult
     {
         public bool Success { get; set; }
         public string Message { get; set; }
